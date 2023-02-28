@@ -7,35 +7,3 @@
   gap: 1.25rem;
   justify-content: center;
 }
-.users-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #fff;
-  width: 250px;
-  box-sizing: border-box;
-  padding: 10px 15px;
-}
-.users-card > img {
-  width: 150px;
-  border-radius: 50%;
-}
-.username {
-  padding: 5px 0;
-  color: black;
-  font-weight: 500;
-}
-.view-profile {
-  border: none;
-  cursor: pointer;
-  background-color: #1976d2;
-  color: #fff;
-  padding: 5px 15px;
-  border-radius: 15px;
-}
-.view-profile > a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 400 !important;
-  font-size: 12px;
-}

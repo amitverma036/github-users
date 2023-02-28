@@ -11,6 +11,9 @@ export class AppComponent {
   constructor(private user: AppService) {}
 
   ngOnInit() {
-    this.user.getData().subscribe((data: any) => (this.usersList = [...data]));
+    this.user.getData().subscribe((data: any) => {
+      this.usersList = [...data];
+      console.log('log: userList', this.usersList);
+    });
   }
 }

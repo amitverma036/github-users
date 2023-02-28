@@ -116,12 +116,12 @@
 </div>
 <div class="container">
   <div class="users-card-container">
-    <div *ngFor="let user of usersList" class="users-card">
-      <img src="{{ user.avatar_url }}" alt="user-1" />
-      <p class="username">{{ user.login }}</p>
-      <button class="view-profile">
-        <a href="{{ user.html_url }}" target="_blank"> View Profile</a>
-      </button>
+    <div *ngFor="let user of usersList">
+      <app-user-card
+        [avatar_url]="user.avatar_url"
+        [login]="user.login"
+        [html_url]="user.html_url"
+      ></app-user-card>
     </div>
   </div>
 </div>
