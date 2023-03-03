@@ -1,0 +1,22 @@
+.users-container {
+  margin-top: 75px;
+}
+.user-detail-card {
+  width: 90vw;
+  margin: auto;
+  background-color: #eee;
+  display: flex;
+}
+.user-right {
+  flex: 0.6;
+  padding: 12px 12px;
+}
+.user-left {
+  padding: 12px 12px;
+  flex: 0.4;
+}
+.avatar-image > img {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+}

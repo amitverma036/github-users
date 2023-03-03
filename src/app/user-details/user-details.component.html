@@ -1,6 +1,10 @@
-<p>user-details works!</p>
-<h1>hello users are here</h1>
-<h1>hello users are here</h1>
-<h1>hello users are here</h1>
-<h1>hello users are here</h1>
-<h1>hello users are here</h1>
+<div class="users-container">
+  <div *ngIf="userDetails" class="user-detail-card">
+    <div class="user-left">
+      <div class="avatar-image">
+        <img src="{{ userDetails.avatar_url }}" alt="avatar-image" />
+      </div>
+    </div>
+    <div class="user-right">helllo helllo helllo helllo</div>
+  </div>
+</div>

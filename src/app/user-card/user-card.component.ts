@@ -13,7 +13,6 @@ export class UserCardComponent implements OnChanges {
 
   ngOnChanges(changes: SimpleChanges) {
     if (changes.hasOwnProperty('login')) {
-      console.log('log: New value:', changes?.['login']);
     }
   }
 }
