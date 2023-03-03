@@ -2,6 +2,6 @@
   <img src="{{ avatar_url }}" alt="user-1" />
   <p class="username">{{ login }}</p>
   <button class="view-profile">
-    <a href="{{ html_url }}" target="_blank"> View Profile</a>
+    <a routerLink="/user-details/{{ login }}">View Profile</a>
   </button>
 </div>
